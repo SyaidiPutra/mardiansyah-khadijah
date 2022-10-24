@@ -22,7 +22,7 @@
 
 .text-n{
     font-size: 8rem;
-    padding-bottom: 45px;
+    padding-bottom: 13px;
 }
 .box-music{
     right: 0;
@@ -30,4 +30,10 @@
 }
 section{
     min-height: 100vh;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-tok{
+    background-color: rgba(245, 179, 125, 0.2);
 }
