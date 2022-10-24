@@ -10,7 +10,10 @@
 }
 
 .text-orange{
-    color: orange;
+    color: #F3A05C;
+}
+.text-babayang{
+    text-shadow: 0.5px 1px rgba(0, 0, 0, .15);
 }
 
 .tarasparan-tp-kd{
@@ -20,4 +23,11 @@
 .text-n{
     font-size: 8rem;
     padding-bottom: 45px;
+}
+.box-music{
+    right: 0;
+    bottom: 40px;
+}
+section{
+    min-height: 100vh;
 }
