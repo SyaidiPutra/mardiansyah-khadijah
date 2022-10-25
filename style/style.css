@@ -35,8 +35,11 @@
 
 section {
     min-height: 100vh;
+    width: 100vw;
 }
-
+.bg-withe{
+    background-color: white;
+}
 body {
     overflow-x: hidden;
 }
@@ -44,7 +47,11 @@ body {
 .bg-tok {
     background-color: rgba(245, 179, 125, 0.2);
 }
-
+.batas-hp{
+    top: -40%!important;
+    transform: translate(-50%,-50%)!important;
+    left: 50%;
+}
 .paper {
     padding: 10px;
     background: white;
@@ -128,6 +135,27 @@ body {
         -webkit-column-count: 2;
         column-count: 2;
     }
+    .text-n{
+        font-size: 5rem;
+        padding-top: 10px;
+    }
+    .tuju-ada {
+        padding-bottom: 10px !important;
+    }
+    .hero-img{
+        width: 100vw;
+    }
+    .vh-hp{
+        height: 50vh;
+    }
+    .paper{
+        width: 15rem;
+        height: 17rem;
+    }
+    .paper-foto {
+        width: 10rem;
+        height: 10rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -136,10 +164,31 @@ body {
         -webkit-column-count: 1;
         column-count: 1;
     }
+    .text-n{
+        font-size: 5rem;
+        padding-top: 10px;
+    }
+    .tuju-ada {
+        padding-bottom: 10px !important;
+    }
+    .hero-img{
+        width: 100vw;
+    }
+    .vh-hp{
+        height: 50vh;
+    }
+    .paper{
+        width: 15rem;
+        height: 17rem;
+    }
+    .paper-foto {
+        width: 10rem;
+        height: 10rem;
+    }
 }
 
 blockquote {
-    padding: 60px 80px 40px;
+    padding: 60px 2rem 40px;
     position: relative;
 }
 
