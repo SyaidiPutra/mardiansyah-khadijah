@@ -37,3 +37,27 @@ body{
 .bg-tok{
     background-color: rgba(245, 179, 125, 0.2);
 }
+
+.paper{
+    padding: 10px;
+    background: white;
+    width: 20rem;
+    height: 22rem;
+}
+.paper-1{
+    transform: rotate(10deg);
+}
+.paper-2{
+    transform: rotate(-5deg);
+}
+.paper-foto{
+    width: 15rem;
+    height: 15rem;
+    margin: 20px auto auto auto;
+    background-size: cover;
+}
+.map{
+    height: 75%;
+    width: 75%;
+    overflow: hidden;
+}
