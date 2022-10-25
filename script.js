@@ -12,6 +12,7 @@ function mosek(){
     audio.play();
     is_play = true
     document.querySelector('#control_music').innerHTML=`<i class="fas fa-pause"></i>`
+    document.querySelector('html').style.overflowX = 'hidden'
 }
 
 function sandak(){
