@@ -224,6 +224,7 @@ blockquote::after {
 footer {
     background-color: rgb(194, 194, 194);
     padding: 20px;
+    flex-wrap: wrap;
 }
 .brand-logo{
     height: 25px;
